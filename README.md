@@ -146,14 +146,4 @@ Over $t \in [0,8]$, there are two cycles of length 4. Each phase lasts 1 time un
 
 ---
 
-## Why Equations Were Not Rendering
-
-The previous README used `\[ ... \]` blocks and `\( ... \)` inline math. Those delimiters are valid in LaTeX, but Markdown renderers do not consistently support them.
-
-For GitHub and most Markdown tools, use:
-
-- Inline math: `$ ... $`
-- Display math: `$$ ... $$`
-
-Also keep a blank line before and after each `$$` block to ensure proper parsing.
 
